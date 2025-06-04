@@ -1,5 +1,6 @@
 .navbar {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+    background: #222;
 }
 
 .navbar__list {
@@ -15,7 +16,9 @@
 
 .navbar__link {
     text-decoration: none;
-    color: blue;
+    color: lightblue;
+    display: inline-block;
+    padding: .3em;
 }
 
 .navbar__link:hover {
@@ -25,5 +28,10 @@
 
 .navbar__link--active {
     font-weight: bold;
-    color: darkblue;
+    color: yellow;
+}
+
+.navbar__logo {
+    display: inline-block;
+    margin-right: 20px;
 }
