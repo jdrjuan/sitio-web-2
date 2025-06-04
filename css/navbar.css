@@ -22,3 +22,8 @@
     text-decoration: underline;
     color: darkblue;
 }
+
+.navbar__link--active {
+    font-weight: bold;
+    color: darkblue;
+}
