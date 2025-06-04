@@ -1,24 +1,24 @@
-nav {
+.navbar {
     border: 3px solid blue;
 }
 
-nav ul {
+.navbar__list {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
+.navbar__item {
     display: inline;
     margin-right: 10px;
 }
 
-nav ul li a {
+.navbar__link {
     text-decoration: none;
     color: blue;
 }
 
-nav ul li a:hover {
+.navbar__link:hover {
     text-decoration: underline;
     color: darkblue;
 }
