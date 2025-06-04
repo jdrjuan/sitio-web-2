@@ -14,19 +14,19 @@
     margin-right: 10px;
 }
 
-.navbar__link {
+.navbar__a {
     text-decoration: none;
     color: lightblue;
     display: inline-block;
     padding: .3em;
 }
 
-.navbar__link:hover {
+.navbar__a:hover {
     text-decoration: underline;
     color: darkblue;
 }
 
-.navbar__link--active {
+.navbar__a--active {
     font-weight: bold;
     color: yellow;
 }
